@@ -31,4 +31,52 @@ body {
   main {
     padding: 2em;
   }
+  /* ------------------------
+   About Page Styling Below
+------------------------ */
+.about-section {
+    text-align: center;
+  }
   
+  .about-section h1 {
+    font-size: 48px;
+    font-family: 'Inria Serif', serif;
+    margin-bottom: 40px;
+  }
+  
+  /* Flex layout for About Me content */
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+  
+  /* Style for profile images */
+  .about-content img {
+    width: 396px;
+    height: 528px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Style for the central text content */
+  .about-text {
+    max-width: 436px;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    line-height: 1.6;
+    text-align: left;
+    color: #000;
+  }
+    ``
+    body {
+        font-family: 'Inria Serif', serif;
+      }
+      
+      .nav-bar nav a {
+        font-family: 'Inter', sans-serif;
+      }
+      
