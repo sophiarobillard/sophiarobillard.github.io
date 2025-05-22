@@ -112,13 +112,15 @@ body {
         ------------------------------*/
         .awards-section {
           padding: 2em;
+          max-width: 1000px;
+          margin: auto;
         }
         
         .awards-section h1 {
           font-size: 36px;
-          margin-bottom: 1em;
           text-align: center;
           font-family: 'Inria Serif', serif;
+          margin-bottom: 2em;
         }
         
         .award-entry {
@@ -126,33 +128,38 @@ body {
           justify-content: space-between;
           align-items: flex-start;
           gap: 2em;
-          flex-wrap: wrap;
           margin-bottom: 2em;
+          border-bottom: 1px solid #ccc; /* divider line */
+          padding-bottom: 2em;
         }
         
         .award-text {
           flex: 1;
-          max-width: 50%;
+          max-width: 55%;
         }
         
         .award-text h2 {
           font-size: 20px;
-          font-weight: bold;
-          margin-bottom: 0.2em;
+          font-weight: 600;
+          margin-bottom: 0.3em;
         }
         
         .award-source {
           color: #666;
           font-style: italic;
-          margin-bottom: 1em;
+          font-size: 16px;
+          margin-bottom: 0.8em;
+          margin-top: -0.4em;
         }
         
         .award-description {
+          font-size: 16px;
           line-height: 1.6;
         }
         
         .award-image img {
-          width: 300px;
+          width: 350px;
+          max-width: 100%;
           border-radius: 8px;
           object-fit: cover;
         }
