@@ -19,7 +19,7 @@ body {
   margin: 0 10px;
   border: 1px solid #2c2c2c;
   border-radius: 8px;
-  background-color: #e8ede6;
+  background-color: #DDE5DA;
   color: #2c2c2c;
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -29,12 +29,12 @@ body {
 }
 /* Hover effect */
 .nav-link:hover {
-  background-color: #d0d9cc;
+  background-color: #DDE5DA;
 }
 /* Active page style */
 .nav-link.active {
   font-weight: 600;
-  background-color: #c3d3c0;
+  background-color: #DDE5DB;
   border: 2px solid #2c2c2c;
 }
   nav {
@@ -42,7 +42,7 @@ body {
   }
   
   nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
