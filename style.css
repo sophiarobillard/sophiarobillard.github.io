@@ -12,7 +12,31 @@ body {
     padding: 1.5em;
     text-align: center;
   }
-  
+  /* Navigation links styled as buttons */
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #2c2c2c;
+  border-radius: 8px;
+  background-color: #e8ede6;
+  color: #2c2c2c;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.2s;
+}
+/* Hover effect */
+.nav-link:hover {
+  background-color: #d0d9cc;
+}
+/* Active page style */
+.nav-link.active {
+  font-weight: 600;
+  background-color: #c3d3c0;
+  border: 2px solid #2c2c2c;
+}
   nav {
     margin-top: 10px;
   }
