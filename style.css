@@ -8,9 +8,9 @@ body {
   
   header {
     background-color: #DDE5DA;
-    color: black;
-    padding: 1.5em;
-    text-align: center;
+    color: rgb(45, 58, 45);
+    padding: 0.75em 2em;
+    text-align: left;
   }
   /* Navigation links styled as buttons */
 .nav-link {
