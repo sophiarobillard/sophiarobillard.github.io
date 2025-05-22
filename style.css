@@ -9,13 +9,13 @@ body {
   header {
     background-color: #DDE5DA;
     color: rgb(45, 58, 45);
-    padding: 0.65em 2em;
+    padding: 0; /* spacing is controlled inside nav */
     text-align: left;
   }
   /* Navigation links styled as buttons */
 .nav-link {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 6px 16px;
   margin: 0 10px;
   border: 1px solid #2c2c2c;
   border-radius: 8px;
@@ -38,7 +38,12 @@ body {
   border: 2px solid #2c2c2c;
 }
   nav {
-    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0.65em 2em;
+    height: 60px;
   }
   
   nav a {
