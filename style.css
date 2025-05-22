@@ -107,4 +107,53 @@ body {
       .nav-bar nav a {
         font-family: 'Inter', sans-serif;
       }
-      
+      /* -----------------------------
+        Awards Page Styling Below 
+        ------------------------------*/
+        .awards-section {
+          padding: 2em;
+        }
+        
+        .awards-section h1 {
+          font-size: 36px;
+          margin-bottom: 1em;
+          text-align: center;
+          font-family: 'Inria Serif', serif;
+        }
+        
+        .award-entry {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 2em;
+          flex-wrap: wrap;
+          margin-bottom: 2em;
+        }
+        
+        .award-text {
+          flex: 1;
+          max-width: 50%;
+        }
+        
+        .award-text h2 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 0.2em;
+        }
+        
+        .award-source {
+          color: #666;
+          font-style: italic;
+          margin-bottom: 1em;
+        }
+        
+        .award-description {
+          line-height: 1.6;
+        }
+        
+        .award-image img {
+          width: 300px;
+          border-radius: 8px;
+          object-fit: cover;
+        }
+        
