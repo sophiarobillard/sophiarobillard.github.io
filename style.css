@@ -56,35 +56,36 @@ body {
     position: relative;
     z-index: 2;
   }
-  
-  
-
 
   /* Navigation links styled as buttons */
-.nav-link {
-  display: inline-block;
-  padding: 6px 16px;
-  margin: 0 10px;
-  border: 1px solid #2c2c2c;
-  border-radius: 8px;
-  background-color: #DDE5DA;
-  color: #2c2c2c;
-  text-decoration: none;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  transition: background-color 0.2s;
-}
-/* Hover effect */
-.nav-link:hover {
-  background-color: #DDE5DA;
-}
-/* Active page style */
-.nav-link.active {
-  font-weight: 600;
-  background-color: #DDE5DB;
-  border: 2px solid #2c2c2c;
-}
+  .nav-link {
+    padding: 8px 18px;
+    margin: 0 6px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #2c2c2c;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+  }
+  
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .nav-link.active {
+    background: #b89ecf;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
   nav {
     display: flex;
     justify-content: flex-start;
