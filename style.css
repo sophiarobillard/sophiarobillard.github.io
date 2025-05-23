@@ -156,9 +156,9 @@ body {
       .nav-bar nav a {
         font-family: 'Inter', sans-serif;
       }
-      /* -----------------------------
-        Awards Page Styling Below 
-        ------------------------------*/
+/* -----------------------------
+ Awards Page Styling Below 
+------------------------------*/
         .awards-section {
           padding: 2em;
           max-width: 1500px;
@@ -234,8 +234,8 @@ Linked In Icon
 
 .linkedin-nav {
   position: absolute;
-  top: 6px;        /* adjust if needed */
-  right: 3px;      /* space from right edge */
+  top: 4px;        /* adjust if needed */
+  right: 6px;      /* space from right edge */
   font-size: 30px;  /* make icon a bit larger */
   color: #b89ecf;   /* light purple */
   text-decoration: none;
