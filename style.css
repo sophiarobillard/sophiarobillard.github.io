@@ -52,6 +52,10 @@ body {
     pointer-events: none;
     z-index: 0;
   }
+  .nav-container {
+    position: relative;
+    z-index: 2;
+  }
   
   
 
