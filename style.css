@@ -10,34 +10,50 @@ body {
     position: relative;
     background: repeating-linear-gradient(
       to bottom,
-      #cce7cc 0px,     /* Layer 1: lightest green */
-      #cce7cc 40px,
-      #b5dcb5 40px,
-      #b5dcb5 80px,
-      #9fcd9f 80px,
-      #9fcd9f 120px,
-      #89be89 120px,
-      #89be89 160px,
-      #75b375 160px,
-      #75b375 200px     /* Layer 5: darkest */
+      #d8edd8 0px,
+      #d8edd8 40px,
+      #cbe7cb 40px,
+      #cbe7cb 80px,
+      #bde0bd 80px,
+      #bde0bd 120px,
+      #afd9af 120px,
+      #afd9af 160px,
+      #a2d3a2 160px,
+      #a2d3a2 200px
     );
     clip-path: polygon(
-      0 0, 
-      100% 0, 
-      100% 85%, 
-      80% 90%,   /* right-side fault dip */
-      60% 70%, 
-      40% 80%,   /* syncline dip */
-      20% 90%, 
+      0 0,
+      100% 0,
+      100% 85%,
+      80% 90%,
+      60% 70%,
+      40% 80%,
+      20% 90%,
       0 85%
     );
     padding: 2em 2em 3em 2em;
     z-index: 1;
-    border-bottom: 2px solid #333; /* optional sharper base */
-    background-size: 100% 40px;
-    background-repeat: repeat;
-
+    border-bottom: 2px solid #ccc;
   }
+  
+  .geo-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 39px,
+      #ffffff 39px,
+      #ffffff 40px
+    );
+    pointer-events: none;
+    z-index: 0;
+  }
+  
   
   
   /* Navigation links styled as buttons */
