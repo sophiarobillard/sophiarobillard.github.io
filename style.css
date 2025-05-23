@@ -232,13 +232,17 @@ Linked In Icon
 }
 
 .linkedin-nav {
-  font-size: 24px;
-  color: #b89ecf; /* light purple */
-  transition: transform 0.2s ease;
+  position: absolute;
+  top: 12px;        /* adjust if needed */
+  right: 20px;      /* space from right edge */
+  font-size: 30px;  /* make icon a bit larger */
+  color: #b89ecf;   /* light purple */
   text-decoration: none;
+  z-index: 10;
+  transition: transform 0.2s ease;
 }
 
 .linkedin-nav:hover {
-  transform: scale(1.1);
-  color: #a080c2; /* darker purple on hover */
+  transform: scale(1.15);
+  color: #a080c2;
 }
