@@ -8,28 +8,37 @@ body {
   
   .geo-header {
     position: relative;
-    background: linear-gradient(
+    background: repeating-linear-gradient(
       to bottom,
-      #355e3b 0%,
-      #4d774e 20%,
-      #689b6d 40%,
-      #90c89f 60%,
-      #cdebd0 80%,
-      #eaf6eb 100%
+      #cce7cc 0px,     /* Layer 1: lightest green */
+      #cce7cc 40px,
+      #b5dcb5 40px,
+      #b5dcb5 80px,
+      #9fcd9f 80px,
+      #9fcd9f 120px,
+      #89be89 120px,
+      #89be89 160px,
+      #75b375 160px,
+      #75b375 200px     /* Layer 5: darkest */
     );
     clip-path: polygon(
       0 0, 
       100% 0, 
       100% 85%, 
-      80% 90%, 
+      80% 90%,   /* right-side fault dip */
       60% 70%, 
-      40% 80%, 
+      40% 80%,   /* syncline dip */
       20% 90%, 
       0 85%
     );
     padding: 2em 2em 3em 2em;
     z-index: 1;
+    border-bottom: 2px solid #333; /* optional sharper base */
+    background-size: 100% 40px;
+    background-repeat: repeat;
+
   }
+  
   
   /* Navigation links styled as buttons */
 .nav-link {
