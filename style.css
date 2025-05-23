@@ -233,8 +233,8 @@ Linked In Icon
 
 .linkedin-nav {
   position: absolute;
-  top: 1px;        /* adjust if needed */
-  right: 5px;      /* space from right edge */
+  top: 5px;        /* adjust if needed */
+  right: 3px;      /* space from right edge */
   font-size: 30px;  /* make icon a bit larger */
   color: #b89ecf;   /* light purple */
   text-decoration: none;
