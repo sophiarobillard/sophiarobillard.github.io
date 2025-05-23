@@ -211,4 +211,24 @@ body {
           border-radius: 8px;
           object-fit: cover;
         }
-        
+/* -----------------------------
+Linked In Icon
+*/
+.linkedin-icon {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  z-index: 10;
+}
+
+.linkedin-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.linkedin-icon img:hover {
+  transform: scale(1.1);
+}
