@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #f8fdf8;
+  background-color: #ffffff;
   color: #1a1a1a;
 }
 
 /* NAVIGATION */
 .main-header {
-  background-color: #1f3d2b;
+  background-color: #93ae92;
   padding: 1rem 2rem;
 }
 
@@ -22,14 +22,14 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
   transition: color 0.2s;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #b6e4b5;
+  color: #627d61;
 }
 
 /* HERO SECTION */
