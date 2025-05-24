@@ -90,6 +90,7 @@ body {
     font-size: 48px;
     font-family: 'Inria Serif', serif;
     margin-bottom: 40px;
+    margin-top: 10px;
   }
   
   /* Flex layout for About Me content */
