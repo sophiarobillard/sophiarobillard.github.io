@@ -62,7 +62,7 @@ body {
   /* Navigation links styled as buttons */
   .nav-link {
     padding: 4px 18px;
-    margin-top: -1.5px;
+    margin-top: -2.5px;
     border: none;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.5);
