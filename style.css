@@ -34,7 +34,7 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background: linear-gradient(to right, #d8edd8, #bde0bd);
+  background: linear-gradient(to right, #ffffff, #ffffff);
   min-height: 90vh;
   display: flex;
   align-items: center;
