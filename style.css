@@ -53,16 +53,19 @@ body {
     z-index: 0;
   }
   .nav-container {
-    position: relative;
-    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em 2em; /* reduced vertical space */
   }
 
   /* Navigation links styled as buttons */
   .nav-link {
-    padding: 8px 18px;
+    padding: 6px 18px;
+    margin-top: -2px;
     margin: 0 6px;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     background: rgba(255, 255, 255, 0.5);
     color: #2c2c2c;
     text-decoration: none;
