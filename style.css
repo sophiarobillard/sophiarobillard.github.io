@@ -49,6 +49,7 @@ body {
 .image-header img {
   width: 100%;
   height: auto;
+  object-fit: contain;
   display: block;
 }
 
