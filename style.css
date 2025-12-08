@@ -11,7 +11,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(113, 166, 122, 0.40); /* transparent */
+  background-color: rgba(113, 166, 122, 0.7); /* transparent */
   backdrop-filter: blur(1px); /* optional — looks great */
   z-index: 10; /* makes sure it sits above the image */
 }
@@ -64,28 +64,108 @@ body {
   width: 100%;
 }
 
+.header-hero {
+  position: relative;
+  height: 100vh;           /* full viewport height */
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: fixed;         /* creates parallax effect */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/Images.jpg');  /* your header image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;             /* behind the content */
+}
+
+.hero-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcome-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* center text */
 
-  font-family: 'Paytone One', sans-serif;  /* or whatever font you prefer */
-  font-size: 80px;                    /* adjust to your taste */
+  font-family: 'Paytone One', sans-serif;  /* same as before */
+  font-size: 70px;                        /* adjust as in your old version */
   font-weight: 600;
-  color: white;
-
-  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
-
+  color: white;                            /* ensure it's white */
   letter-spacing: 2px;
+
+  /* same style shadow as before */
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
+  text-align: center;
 }
 
-.image-header img {
+
+.about-section {
   width: 100%;
-  height: auto;
-  display: block;
+  padding: 80px 5%; /* spacing around section */
+  background-color: #fdfdfd;
+  box-sizing: border-box;
 }
 
+.about-content {
+  display: flex;
+  gap: 50px;              /* space between text and image */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;         /* makes it responsive on smaller screens */
+}
+
+.about-text {
+  flex: 1 1 500px;         /* text takes up available space, min 500px */
+}
+
+.about-heading {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.about-subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #3a562b;
+}
+
+.about-body {
+  font-family: 'Inria Serif', serif;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #1a1a1a;
+}
+
+.about-image {
+  flex: 1 1 400px;         /* image column */
+  text-align: center;      /* center image in column */
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 
 
   /* ------------------------
@@ -134,6 +214,8 @@ body {
         font-family: 'Inria Serif', serif;
       }
 
+
+      
 /* -----------------------------
  Awards Page Styling Below 
 ------------------------------*/
@@ -190,38 +272,3 @@ body {
           border-radius: 8px;
           object-fit: cover;
         }
-/* -----------------------------
-Linked In Icon
---------------------------------*/
-.linkedin-nav {
-  font-size: 24px;
-  transition: transform 0.2s ease;
-  text-decoration: none;
-}
-.nav-container {
-  display: flex;
-  justify-content: space-between; /* Pushes LinkedIn to the right */
-  align-items: center;
-  padding: 1em 2em;
-}
-
-.nav-left {
-  display: flex;
-  gap: 10px;
-}
-
-.linkedin-nav {
-  position: absolute;
-  top: 4px;        /* adjust if needed */
-  right: 6px;      /* space from right edge */
-  font-size: 30px;  /* make icon a bit larger */
-  color: #b89ecf;   /* light purple */
-  text-decoration: none;
-  z-index: 10;
-  transition: transform 0.2s ease;
-}
-
-.linkedin-nav:hover {
-  transform: scale(1.15);
-  color: #a080c2;
-}
