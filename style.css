@@ -7,9 +7,10 @@ body {
 
 /* NAVIGATION */
 .main-header {
-  background-color: #68985e
+  background-color:rgba(125, 175, 133, 0.80)
   ;
   padding: 1rem 2rem;
+  backdrop-filter: blur(4px); /* optional: gives a nice glass effect */
 }
 
 .header-inner {
