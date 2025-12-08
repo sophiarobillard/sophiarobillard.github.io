@@ -56,7 +56,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #85be68;
+  color: #537a3f;
 }
 
 .image-header {
@@ -135,15 +135,15 @@ body {
   font-family: 'Paytone One', sans-serif;
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: #1a1a1a;
+  margin-bottom: 3px;
+  color: #306836;
 }
 
 .about-subheading {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #3a562b;
 }
 
@@ -166,7 +166,46 @@ body {
   border-radius: 8px;
   object-fit: cover;
 }
+/* -----------------------------
+ Carousel Styling 
+------------------------------*/
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 700px; /* same as before */
+  overflow: hidden;
+  border-radius: 8px;
+}
 
+.carousel-slide {
+  display: none; /* hide all slides by default */
+  position: relative;
+  text-align: center;
+}
+
+.carousel-slide.active {
+  display: block; /* show only the active slide */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(134, 171, 139, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
 
   /* ------------------------
    About Page Styling Below
@@ -213,7 +252,6 @@ body {
     body {
         font-family: 'Inria Serif', serif;
       }
-
 
       
 /* -----------------------------
