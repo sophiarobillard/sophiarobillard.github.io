@@ -13,8 +13,13 @@ body {
   width: 100%;
   background-color: rgba(113, 166, 122, 0.40); /* transparent */
   backdrop-filter: blur(1px); /* optional — looks great */
-  padding: 1rem 2rem;
   z-index: 10; /* makes sure it sits above the image */
+}
+.header-inner {
+  padding: 1rem 2rem;   /* add left + right spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
