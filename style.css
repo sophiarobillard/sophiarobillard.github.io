@@ -11,7 +11,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(125, 175, 133, 0.75); /* transparent */
+  background-color: rgba(91, 150, 101, 0.6); /* transparent */
   backdrop-filter: blur(4px); /* optional — looks great */
   padding: 1rem 2rem;
   z-index: 10; /* makes sure it sits above the image */
