@@ -7,18 +7,16 @@ body {
 
 /* NAVIGATION */
 .main-header {
-  background-color:rgba(125, 175, 133, 0.80)
-  ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(125, 175, 133, 0.75); /* transparent */
+  backdrop-filter: blur(4px); /* optional — looks great */
   padding: 1rem 2rem;
-  backdrop-filter: blur(4px); /* optional: gives a nice glass effect */
+  z-index: 10; /* makes sure it sits above the image */
 }
 
-.header-inner {
-  padding: 0 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .logo {
   font-size: 20px;
