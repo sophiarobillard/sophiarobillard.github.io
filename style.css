@@ -16,7 +16,7 @@ body {
   z-index: 10; /* makes sure it sits above the image */
 }
 .header-inner {
-  padding: 1rem 2rem;   /* add left + right spacing */
+  padding: 0.5rem 2rem;   /* add left + right spacing */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,17 +24,22 @@ body {
 
 
 .logo {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Paytone One', sans-serif;
-}
+    text-shadow:
+        -2px -2px 0 #3a562b,
+         2px -2px 0 #3a562b,
+        -2px  2px 0 #3a562b,
+         2px  2px 0 #3a562b;
+  }
 
 .nav-bar {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   margin-top: 8px; 
 }
 
@@ -55,7 +60,24 @@ body {
 }
 
 .image-header {
+  position: relative;
   width: 100%;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Paytone One', sans-serif;  /* or whatever font you prefer */
+  font-size: 80px;                    /* adjust to your taste */
+  font-weight: 600;
+  color: white;
+
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
+
+  letter-spacing: 2px;
 }
 
 .image-header img {
@@ -111,10 +133,7 @@ body {
     body {
         font-family: 'Inria Serif', serif;
       }
-      
-      .nav-bar nav a {
-        font-family: 'Inter', sans-serif;
-      }
+
 /* -----------------------------
  Awards Page Styling Below 
 ------------------------------*/
