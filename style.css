@@ -11,7 +11,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(113, 166, 122, 0.7); /* transparent */
+  background-color: rgba(113, 166, 122, 0.8); /* transparent */
   backdrop-filter: blur(1px); /* optional — looks great */
   z-index: 10; /* makes sure it sits above the image */
 }
@@ -322,3 +322,41 @@ body {
           border-radius: 8px;
           object-fit: cover;
         }
+
+        /* CV Styling*/
+
+        .cv-section {
+          padding: 3rem 2rem;
+          max-width: 1000px;
+          margin: auto;
+        }
+        
+        .cv-title {
+          font-family: 'Times New Roman', serif;
+          font-size: 35px;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          color: #0f140b;
+        }
+        
+        .cv-container {
+          border: 2px solid #e1e1e1;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+        }
+        
+        .cv-download a {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 600;
+          color: #3a562b;
+          text-decoration: none;
+        }
+        
+        .cv-download a:hover {
+          text-decoration: underline;
+        }
+        
