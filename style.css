@@ -359,4 +359,92 @@ body {
         .cv-download a:hover {
           text-decoration: underline;
         }
-        
+
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 40px;
+          background: #f7f7f7;
+        }
+/* RESEARCH PAGE */      
+/* Ensure content clears your header */
+body {
+  padding-top: 90px; /* adjust if header height changes */
+  background: #f7f7f7;
+}
+
+/* Page Title Styling */
+.page-title-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 2rem;
+  color: #3a573b;
+}
+
+/* Card Grid */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+.research-card {
+  display: block;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.16);
+}
+
+.research-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.card-content {
+  padding: 18px 20px 22px;
+}
+
+.card-content h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin: 0;
+  color: #304839;
+  line-height: 1.4;
+}
+body {
+  background: linear-gradient(#f2fff2, #ffffff);
+}
+.page-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.full-divider {
+  border: none;
+  height: 4px;                 /* thickness */
+  background-color: #1f4d2c;   /* dark green */
+  width: 100%;                 /* full page width */
+  margin: 1rem 0 2.5rem 0;     /* spacing above/below */
+}
