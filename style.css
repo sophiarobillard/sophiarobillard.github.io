@@ -236,7 +236,7 @@ body {
   }
   
   .about-section h1 {
-    font-size: 48px;
+    font-size: 30px;
     font-family: 'inter', sans-serif;
     margin-bottom: 40px;
     margin-top: 10px;
@@ -279,7 +279,7 @@ body {
  Awards Page Styling Below 
 ------------------------------*/
         .awards-section {
-          padding: 2em;
+          padding: 3rem 2rem;
           max-width: 1500px;
           margin: auto;
         }
@@ -287,7 +287,7 @@ body {
         .awards-section h1 {
           font-size: 36px;
           text-align: center;
-          font-family: 'Inter', serif;
+          font-family: 'Inter', sans-serif;
           margin-bottom: 2em;
         }
         
@@ -341,14 +341,14 @@ body {
         }
         
         .cv-title {
-          font-family: 'Times New Roman', serif;
-          font-size: 35px;
+          font-family: 'Inter', sans-serif;
+          font-size: 2rem;
           text-align: center;
           text-transform: uppercase;
           letter-spacing: 2px;
           margin-top: 1.5rem;
           margin-bottom: 1.5rem;
-          color: #0f140b;
+          color: #3a573b;
         }
         
         .cv-container {
@@ -370,27 +370,22 @@ body {
         }
 
         body {
-          font-family: Arial, sans-serif;
+          font-family: 'Inter', sans-serif;
           margin: 0;
           padding: 40px;
           background: #f7f7f7;
         }
 /* RESEARCH PAGE */      
 /* Ensure content clears your header */
-body {
-  padding-top: 90px; /* adjust if header height changes */
-  background: #f7f7f7;
-}
 
 /* Page Title Styling */
 .page-title-section {
   text-align: center;
-  margin-bottom: 40px 5% 10px;
 }
 
 .page-title {
   font-family: 'Inter', sans-serif;
-  font-size: 2rem;
+  font-size: 30px;
   color: #3a573b;
 }
 
@@ -437,7 +432,7 @@ h1, h2 {
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -484,7 +479,7 @@ project-image {
 }
 
 .project-text h2 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   margin-bottom: 20px;
 }
 
