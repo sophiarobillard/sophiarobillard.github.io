@@ -524,3 +524,77 @@ body {
   width: 100%;                 /* full page width */
   margin: 1rem 0 2.5rem 0;     /* spacing above/below */
 }
+
+/* Outreach Page */
+/* Gallery */
+
+.outreach-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.outreach-gallery img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Intro */
+
+.outreach-intro {
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+  padding: 0 20px;
+}
+
+.outreach-intro h1 {
+  font-family: "Paytone One", sans-serif;
+  margin-bottom: 25px;
+}
+
+.outreach-intro p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Teaching Materials */
+
+.teaching-materials {
+  max-width: 1100px;
+  margin: 0 auto 100px auto;
+  padding: 0 20px;
+}
+
+.teaching-materials h2 {
+  font-family: "Paytone One", sans-serif;
+  margin-bottom: 30px;
+}
+
+.teaching-materials iframe {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.download-section {
+  margin-top: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1f4b6e;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.download-btn:hover {
+  opacity: 0.9;
+}
